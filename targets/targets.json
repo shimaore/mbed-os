@@ -373,7 +373,7 @@
         "inherits": ["LPCTarget"],
         "core": "Cortex-M4F",
         "extra_labels": ["NXP", "LPC43XX", "LPC4337"],
-        "supported_toolchains": ["ARM"],
+        "supported_toolchains": ["ARM","GCC_ARM"],
         "device_has": ["ANALOGIN", "ANALOGOUT", "DEBUG_AWARENESS", "ERROR_RED", "ETHERNET", "I2C", "I2CSLAVE", "INTERRUPTIN", "PORTIN", "PORTINOUT", "PORTOUT", "PWMOUT", "RTC", "SERIAL", "SLEEP", "SPI", "SPISLAVE", "STDIO_MESSAGES"],
         "release_versions": ["2"],
         "device_name": "LPC4337"
